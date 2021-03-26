@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * </p>
  *
  * @author Dawson·Ricardo
- * @since 2021-03-26
+ * @since 2021-03-27
  */
 public interface UmsRoleService extends IService<UmsRole> {
 
