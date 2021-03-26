@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @create: 2021-03-26 22:22
  **/
 @SpringBootApplication
-@MapperScan("com.ricardo.mall")
+@MapperScan(value = {"com.ricardo.mall.**.mapper"})
 public class MyMallApplication {
     public static void main(String[] args) {
         SpringApplication.run(MyMallApplication.class, args);
